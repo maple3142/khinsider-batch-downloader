@@ -4,7 +4,7 @@
 // @namespace         https://blog.maple3142.net/
 // @description       batch download for downloads.khinsider.com originalsoundtracks
 // @description:zh-TW 批量下載 downloads.khinsider.com 的原聲帶
-// @version           0.1.2
+// @version           0.1.3
 // @author            maple3142
 // @match             https://downloads.khinsider.com/game-soundtracks/album/*
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
@@ -2065,9 +2065,7 @@ $('a:contains("click to download")').on('click', function () {
 						};
 
 						files = _context.sent.map(_context.t0);
-
-						console.log(files);
-						_context.next = 12;
+						_context.next = 11;
 						return files.reduce(function (zip, file) {
 							zip.file(file.name, file.blob);
 							return zip;
@@ -2075,7 +2073,7 @@ $('a:contains("click to download")').on('click', function () {
 							return $('#dp').attr('value', parseInt(meta.percent));
 						});
 
-					case 12:
+					case 11:
 						blob = _context.sent;
 						url = URL.createObjectURL(blob);
 						a = document.createElement('a');
@@ -2087,7 +2085,7 @@ $('a:contains("click to download")').on('click', function () {
 						a.remove();
 						URL.revokeObjectURL(url);
 
-					case 21:
+					case 20:
 					case 'end':
 						return _context.stop();
 				}
