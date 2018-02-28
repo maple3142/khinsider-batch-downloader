@@ -1,10 +1,21 @@
-# Anime1.me 下載器 (userscript)
+# Video Game Music batch downloader
 
-用來下載 Anime1.me 網站上的動漫
+## Example
 
-功能:
+1. Go to [Eternal Senia](https://downloads.khinsider.com/game-soundtracks/album/eternal-senia) soundtrack page,
+   and you will see a message: New! Download all songs at once: **click to download**
+2. Click **click to download** and wait for a prompt to ask for downloading zip
+   _Your browser might be slow while downloading music._
 
-* 會在標題的旁邊新增一個下載按鈕以便快速下載
-* 自動登入需要密碼的影片
+Download: [Greasy Fork](https://greasyfork.org/en/scripts/37314-video-game-music-batch-downloader)
 
-下載連結: [Greasy Fork](https://greasyfork.org/zh-TW/scripts/35953-anime1-me-%E4%B8%8B%E8%BC%89%E5%99%A8)
+# Video Game Music 批量下載器
+
+## 範例
+
+1. 到 [永恆的賽妮亞](https://downloads.khinsider.com/game-soundtracks/album/eternal-senia) 原聲帶頁面,
+   然後會在網頁上看到一個訊息: New! Download all songs at once: **click to download**
+2. 點擊 **click to download** 並等待一個對話框詢問要下載 zip
+   _瀏覽器可能會在下載期間時變得很慢_
+
+下載: [Greasy Fork](https://greasyfork.org/en/scripts/37314-video-game-music-batch-downloader)

@@ -2,7 +2,7 @@
 	"name": "Video Game Music batch downloader",
 	"name:zh-TW": "Video Game Music 批量下載器",
 	"namespace": "https://blog.maple3142.net/",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "batch download for downloads.khinsider.com originalsoundtracks",
 	"description:zh-TW": "批量下載 downloads.khinsider.com 的原聲帶",
 	"author": "maple3142",
