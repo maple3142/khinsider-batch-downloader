@@ -1,0 +1,15 @@
+{
+	"name": "Video Game Music batch downloader",
+	"name:zh-TW": "Video Game Music 批量下載器",
+	"namespace": "https://blog.maple3142.net/",
+	"version": "0.1.2",
+	"description": "batch download for downloads.khinsider.com originalsoundtracks",
+	"description:zh-TW": "批量下載 downloads.khinsider.com 的原聲帶",
+	"author": "maple3142",
+	"match": "https://downloads.khinsider.com/game-soundtracks/album/*",
+	"require": "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js",
+	"connect": "66.90.93.122",
+	"grant": "GM_xmlhttpRequest",
+	"license": "MIT",
+	"copyright": "2018, maple3142 (https://blog.maple3142.net/)"
+}
