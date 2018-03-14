@@ -1,5 +1,7 @@
 # Video Game Music batch downloader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/maple3142/video-game-music-batch-downloader.svg)](https://greenkeeper.io/)
+
 ## Example
 
 1. Go to [Eternal Senia](https://downloads.khinsider.com/game-soundtracks/album/eternal-senia) soundtrack page,
