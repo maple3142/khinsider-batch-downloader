@@ -4,7 +4,7 @@
 // @namespace         https://blog.maple3142.net/
 // @description       batch download for downloads.khinsider.com originalsoundtracks
 // @description:zh-TW 批量下載 downloads.khinsider.com 的原聲帶
-// @version           0.1.3
+// @version           0.1.4
 // @author            maple3142
 // @match             https://downloads.khinsider.com/game-soundtracks/album/*
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
@@ -34,7 +34,7 @@ function downloadblob(url) {
 
 $('a:contains("click to download")').on('click', async e => {
 	e.preventDefault();
-	$('.albumMassDownload').append(`
+	$('.albumMassDownload').prev().replaceWith(`
 <div>
 <span>Download progress:</span>
 <progress min="0" max="100" id="dp" value="0"></progress>

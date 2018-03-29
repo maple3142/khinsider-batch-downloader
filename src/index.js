@@ -4,7 +4,7 @@ import { downloadblob } from './utils'
 
 $('a:contains("click to download")').on('click', async e => {
 	e.preventDefault()
-	$('.albumMassDownload').append(`
+	$('.albumMassDownload').prev().replaceWith(`
 <div>
 <span>Download progress:</span>
 <progress min="0" max="100" id="dp" value="0"></progress>
