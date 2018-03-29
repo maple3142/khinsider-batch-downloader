@@ -35,7 +35,7 @@ function downloadblob(url) {
 $('a:contains("click to download")').on('click', async e => {
 	e.preventDefault();
 	$('.albumMassDownload').prev().replaceWith(`
-<div>
+<div style="padding-left: 10px;">
 <span>Download progress:</span>
 <progress min="0" max="100" id="dp" value="0"></progress>
 </div>
