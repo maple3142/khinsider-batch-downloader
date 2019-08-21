@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name              Video Game Music batch downloader
-// @name:zh-TW        Video Game Music 批量下載器
+// @name              khinsider batch downloader
+// @name:zh-TW        khinsider 批量下載器
 // @namespace         https://blog.maple3142.net/
 // @description       batch download for downloads.khinsider.com originalsoundtracks
 // @description:zh-TW 批量下載 downloads.khinsider.com 的原聲帶
-// @version           0.1.4
+// @version           0.1.5
 // @author            maple3142
 // @match             https://downloads.khinsider.com/game-soundtracks/album/*
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
