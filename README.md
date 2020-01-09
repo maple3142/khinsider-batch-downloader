@@ -1,3 +1,7 @@
+# REPO DEPRECATED IN FAVOR OF https://github.com/maple3142/browser-extensions/blob/master/scripts/local-khinsider-downloader.user.js
+
+
+
 # Video Game Music batch downloader
 
 ## Example
